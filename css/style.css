@@ -1,0 +1,147 @@
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+body {
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header {
+	background-color: rgba(18, 85, 239, 0.853);
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+.page {
+	padding: 30px;
+}
+.block {
+	display: flex;
+	flex-wrap: wrap;
+}
+.block-main {
+	margin-bottom: 20px;
+	border: 5px solid rgb(149, 8, 8);
+	background-color: rgb(7, 137, 154);
+}
+.item-main {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 10px;
+	background-color: rgb(5, 161, 80);
+	text-align: center;
+	border: 5px solid rgb(87, 11, 169);
+}
+.block2 {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.block3 {
+	display: flex;
+	justify-content: end;
+}
+.block4 {
+	display: flex;
+	justify-content: center;
+}
+.block5 {
+	display: flex;
+	justify-content: space-between;
+}
+.block6 {
+	display: flex;
+	align-items: stretch;
+	height: 200px;
+}
+.block7 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	height: 200px;
+}
+.block8 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: stretch;
+	height: 150px;
+	margin-bottom: 50px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px 50px -15px;
+	
+}
+.column {
+	flex: 0 1 25%;
+	padding: 0 15px;
+}
+.item {
+	color: #fff;
+	background-color: rgb(150, 125, 3);
+}
+.car {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 25px;
+	margin-bottom: 30px;
+}
+.car__title {
+	font-size: 24px;
+}
+.car__text {
+	line-height: 120%;
+}
+.car__link {
+	color: rgba(186, 112, 28, 0.597);
+}
+.kia__wrap {
+	padding: 0px;
+	display: flex;
+	margin: 0 -15px;
+}
+.kia__column {
+	flex: 0 1 33.333%;
+	padding: 0px 15px;
+}
+
+.kia__cards {
+	display: flex;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.423);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.581);
+	padding: 15px;
+}
+.kia__item {
+
+}
+.item-kia {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: flex-start;
+	
+}
+.item-kia__image img{
+	max-width: 100%;
+	height: 250px;
+}
+.item-kia__text {
+	color: #fff;
+	flex-grow: 1;
+}
+.item-kia__button {
+	background-color: rgb(4, 163, 17);
+	padding: 5px;
+}
